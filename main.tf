@@ -5,3 +5,4 @@ resource "google_storage_bucket" "gcpttproject" {
 
   public_access_prevention = "enforced"
 }
+
