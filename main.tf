@@ -7,6 +7,6 @@
 # }
 
 resource local_file testing {
-  sensitive_content = "testing local file creation"
+  content = "testing local file creation"
   filename             = "test.txt"
 }
