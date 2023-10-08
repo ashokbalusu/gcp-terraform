@@ -1,3 +1,5 @@
+# Local .venv directories
+**/.venv/*
 # Local .terraform directories
 **/.terraform/*
 
