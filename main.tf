@@ -27,3 +27,8 @@ output rint_output {
 output ran_string_output{
   value = random_string.ran_string.result
 }
+
+resource resource local_file sample_res {
+  filename             = "${path.module}/files/outputfile"
+  content = "test"
+}
