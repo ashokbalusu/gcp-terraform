@@ -11,6 +11,7 @@
 #   filename             = "test.txt"
 # }
 
+
 resource random_integer rint {
   min = 10
   max = 30
