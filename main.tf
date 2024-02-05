@@ -11,6 +11,10 @@
 #   filename             = "test.txt"
 # }
 
+# provider "google" {
+#   project = var.gcp_project_id
+#   region  = var.gcp_region
+# }
 
 resource random_integer rint {
   min = 10
